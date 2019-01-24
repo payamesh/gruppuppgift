@@ -1,3 +1,47 @@
 .hero {
+    display:flex;
     background-color: grey;
+    text-align: center;
+}
+.hero__logo{
+
+    width: 40%;
+
+}
+.hero__h1{
+font-size:50px;
+align-content: center;
+}
+
+.contact{
+    display:relative;
+    text-align:right;
+
+    width:100px;
+margin:0 90%;;
+}
+
+
+
+.menu{
+    display:grid;
+    width:60%;
+    margin:0 auto;
+    text-align: left;;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.menu_pic{
+    height: 350px;
+    margin: 0 auto;
+}
+.menu__header{
+    text-align:center;
+}
+
+.menu__pizza{
+    
+}
+.pizza-price{
+    color:red;
 }
