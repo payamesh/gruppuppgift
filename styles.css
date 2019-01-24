@@ -15,6 +15,7 @@ height: 200px;
 
 }
 .hero__h1{
+    font-family: 'Amatic SC', cursive;
     margin-top: 63px;
     grid-column: 2;
 font-size:50px;
